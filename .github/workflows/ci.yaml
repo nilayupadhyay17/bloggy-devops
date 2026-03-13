@@ -45,7 +45,7 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: codersgyan/blog-app
+      IMAGE_NAME: nilayupadhyay17/blog-app
       IMAGE_TAG: build-${{github.run_number}} #codersgyan/blog-app:build-1
     needs:
       - lint
